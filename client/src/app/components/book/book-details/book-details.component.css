@@ -1,0 +1,81 @@
+.book-details {
+  font-family: cursive;
+  width: 100%;
+}
+
+.book-details img {
+  border-radius: 5px;
+  margin-top: -1873%;
+  width: 877%;
+  margin-left: 134%
+}
+
+.book-info {
+ 
+  padding: 30px;
+  background-color: GREY;
+  border-radius: 15px;
+}
+p{
+  color: #151e34ff;
+}
+
+H2{
+  color: #151e34ff;
+}
+
+h3{
+  text-transform: uppercase;
+  font-size: larger;
+  color: aliceblue;
+}
+
+.book-info a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.book-info button {
+  margin: 10px 10px 10px 0;
+border-radius: 36px;
+background-color: #080c24ff;
+color: aliceblue;
+}
+
+.book-description {
+  text-align: justify;
+}
+
+.book-details div {
+  margin: 50px auto;
+  text-align: left;
+}
+
+.checked {
+  color: orange;
+}
+
+#admin-panel {
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    width: fit-content;
+  }
+   img {
+   visibility: hidden;
+  }
+  .book-details{
+    margin-left: 2%;
+  }
+
+  .book-info {
+ 
+    padding: 30px;
+    background-color: GREY;
+    border-radius: 15px;
+    font-size: 15px;
+    
+  }
+}

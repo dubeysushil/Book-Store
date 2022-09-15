@@ -1,0 +1,58 @@
+footer {
+  background-color: #151e34ff;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  
+}
+
+footer span {
+  margin-top: 6px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.fab {
+  margin-left: 20px;
+  font-size: 60px;
+}
+
+
+.fa-envelope {
+  color: #fff;
+  height: 50px;
+  width: 50px;
+}
+
+.fa-angular {
+  color: #C3002F;
+}
+
+.fa-github {
+  color: #FFF;
+}
+#cr{
+  margin-top: -2%;
+}
+@media only screen and (max-width: 768px ) {
+  body{
+    width: fit-content
+  }
+  .fa-linkedin{
+    margin-right: 3%;
+  }
+}
+@media only screen and (max-width: 468px ) {
+  body{
+    width: fit-content
+  }
+  .fa-linkedin{
+    margin-right: 3%;
+  }
+}

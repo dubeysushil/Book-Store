@@ -1,0 +1,44 @@
+.fas {
+  top: 8px;
+  color: #151e34ff;
+}
+
+
+.form{
+
+  position: relative;
+  width: 560px;
+  margin: 90px auto;
+  padding: 50px 60px 70px 60px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.form h1{
+
+  color: #151e34ff;
+}
+
+.submit {
+  outline: none;
+  border: none;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #151e34ff;
+  color: #D5C395;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.submit:hover {
+  cursor: pointer;
+  color: #FAE7B0;
+  background-color: #4a5cff;
+  box-shadow: 0 0 3px #FFF;
+}
+
+.submit:disabled, .delete-book {
+  background-color: darkgray;
+}
